@@ -10,7 +10,15 @@ header {
   height: 6rem;
   width: 100%;
 }
-#nav {
+img {
+  top: -100px;
+  max-width: 300px;
+  position: relative;
+}
+nav {
+  top: 0;
+  right: 0;
+  position: absolute;
 }
 ul {
   justify-content: flex-end;
