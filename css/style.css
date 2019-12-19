@@ -2,6 +2,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  height: auto;
 }
 body {
   font-family: "Medula One", Arial, Helvetica;
@@ -131,10 +132,6 @@ iframe {
   display: flex;
   flex-direction: column;
 }
-footer {
-  bottom: -200px;
-  position: absolute;
-}
 p {
   font-family: "Rubik", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -191,7 +188,7 @@ p {
   display: grid;
   justify-content: center;
   align-self: center;
-  background-color: #000;
+  background-color: rgb(56, 56, 56);
   border: none;
   border-radius: 2px;
   color: #fff;
@@ -203,4 +200,37 @@ p {
   align-content: center;
   /* margin: 0 auto; */
   /* padding-bottom: 320px; */
+}
+
+.foot {
+  border-radius: 10px 10px 0 0;
+  background-color: rgb(56, 56, 56);
+  bottom: -32rem;
+
+  height: 100px;
+  /* justify-content: flex-end; */
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  padding-right: 5px;
+  /* justify-content: end; */
+}
+.foot p {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  /* justify-content: flex-start; */
+  flex-wrap: wrap;
+  color: rgb(163, 163, 163);
+  margin: 0;
+  padding: 0;
+}
+.foot a {
+  display: flex;
+  flex-direction: column-reverse;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 5px;
+  text-align: end;
+  color: #fff;
 }
