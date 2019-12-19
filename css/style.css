@@ -1,10 +1,12 @@
-/* @import {} */
+@import url("https://fonts.googleapis.com/css?family=Medula+One|Rubik&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
 }
 body {
+  font-family: "Medula One", Arial, Helvetica;
   height: auto;
+  font-weight: 600;
   background-color: rgb(219, 219, 219);
 }
 header {
@@ -32,6 +34,7 @@ ul {
   justify-content: flex-end;
   width: 4rem;
   display: flex;
+  font-size: 1.5em;
   flex-direction: row;
   width: auto;
 }
@@ -105,9 +108,12 @@ p {
   color: rgb(255, 0, 119);
 }
 h2 {
-  margin: 0 0 1rem;
+  /* margin: 0 0 1rem; */
 }
 footer {
   bottom: 0;
   position: absolute;
+}
+p {
+  font-family: "Rubik", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
