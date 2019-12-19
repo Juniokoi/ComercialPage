@@ -9,6 +9,9 @@ body {
   font-weight: 600;
   background-color: rgb(219, 219, 219);
 }
+.nhoim {
+  font-size: 2em;
+}
 header {
   position: fixed;
   top: 0;
@@ -107,8 +110,11 @@ p {
   width: 125px;
   color: rgb(255, 0, 119);
 }
-h2 {
+
+.titles {
   /* margin: 0 0 1rem; */
+  font-family: "Rubik", Arial, Helvetica, sans-serif;
+  font-weight: bolder;
 }
 footer {
   bottom: 0;
